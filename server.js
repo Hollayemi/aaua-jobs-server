@@ -46,7 +46,6 @@ connection.once('open', function() {
 })
 
 // setup API endpoints
-app.use("/testAPI", testAPIRouter);
 app.use("/user", UserRouter);
 app.use("/job", JobRouter);
 app.use("/application", ApplicationRouter);
